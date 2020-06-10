@@ -58,7 +58,7 @@ h1{
     width: 60% !important;
     transform: rotate(25deg);
     margin-left: 10%;
-    position: absolute;
+
 }
 
 
@@ -69,7 +69,7 @@ h1{
     padding: 7% 15%;
     text-align: center;
     background-color: white;
-    position: relative;
+
     
     
 }
