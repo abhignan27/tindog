@@ -52,13 +52,16 @@ h1{
     margin: 5% 3% 5% 0%;
 }
 
+
+
 /* Title image */
 
 .title-image{
     width: 60% !important;
     transform: rotate(25deg);
     margin-left: 10%;
-
+    position: absolute;
+    
 }
 
 
@@ -69,7 +72,8 @@ h1{
     padding: 7% 15%;
     text-align: center;
     background-color: white;
-
+    position: relative;
+    
     
     
 }
@@ -183,4 +187,93 @@ h1{
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* Call to action section  */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+#cta h3{
+    font-family: "Montserrat";
+    color: white;
+    font-size: 2.5rem;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+@media (max-width: 1028px){
+    #cta h3{
+        font-size:1.55rem;
+    }
+
+    
+}
+
+/* Footer section */
+
+#footer{
+    background-color: white;
+    text-align: center;
+    color: grey;
+    line-height: 2;
+}
+
+.footer-div{
+    padding-top: 70px;
+    
+}
+
+.fa-twitter{
+    margin: 0 0.5%;
+}
+.fa-twitter:hover{
+    cursor: pointer;
+    color: #55acee;
+}
+
+.fa-facebook{
+    margin: 0 0.5%;
+}
+
+.fa-facebook:hover{
+    cursor: pointer;
+    color: #3b5999;
+}
+
+.fa-instagram{
+    margin: 0 0.5%;
+}
+
+.fa-instagram:hover{
+    cursor: pointer;
+    color: #e4405f;
+}
+.fa-envelope{
+    margin: 0 0.5%;
+}
+
+.fa-envelope:hover{
+    cursor: pointer;
+    color: #dd4b39;
+}
+
+#footer p:hover{
+    cursor: pointer;
 }
